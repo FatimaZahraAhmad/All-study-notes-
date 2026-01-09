@@ -1,148 +1,138 @@
+# Mathematics Unit 2
 
+## Algebraic Expressions and Properties
 
+### Basic Properties
 
+**Commutative Property** - A property of addition that allows terms to be added in any order; a property of multiplication that allows factors to be multiplied in any order.
 
+**Associative Property** - A property of addition that allows terms to be grouped in any order; a property of multiplication that allows factors to be grouped in any order.
 
+**Distributive Property** - A property of multiplication that states that a sum multiplied by a factor can be expressed as a sum of the products of each individual addend and that factor.
 
+### Algebraic Terms and Expressions
 
+**Algebraic Expression** - A combination of numbers, variables, and operators representing a quantity.
 
-It is considered bad practice to have a radical in the denominator of a fraction. When this happens we multiply the numerator and denominator by the same thing in order to clear the radical.
+**Variable** - A quantity that can change, expressed as a letter or symbol.
 
-If the binomial is in the numerator the process to rationalize the denominator is essentially the same as with monomials. The only difference is we will have to distribute in the numerator.
+**Factor** - A number or quantity used in multiplication.
 
+**Coefficient** - The number in front of a variable term that acts as a factor or multiplier.
 
-Commutative Property A property of addition that allows terms to be added in any order; a property of multiplication that allows factors to be multiplied in any order.
+**Constant** - A term with no variable component.
 
-Reciprocal
-The reciprocal of any number is called 1 divided by that number.
+**Term** - A collection of numbers, variables, and powers combined through multiplication.
 
-Associative Property A property of addition that allows terms to be grouped in any order; a property of multiplication that allows factors to be grouped in any order.
+### Types of Expressions
 
-Distributive Property A property of multiplication that states that a sum multiplied by a factor can be expressed as a sum of the products of each individual addend and that factor.
+**Monomial** - An expression with only one term.
 
-During the 5th century BC in India, Aryabhata published a treatise on astronomy. His work included a method for finding the square root of numbers that have many digits.
+- Example: 4x² would be called a second-degree monomial because the variable is being raised to the second power.
 
-Conjugate The conjugate of a binomial is a binomial with the opposite sign between its terms.
+**Binomial** - An expression with two terms.
 
-FOIL An acronym to remember the steps for distributing factors in binomial multiplication: first, outside, inside, last.
+**Polynomial** - An expression containing several terms.
 
-Algebraic Expression A combination of numbers, variables, and operators representing a quantity.
-Variable A quantity that can change, expressed as a letter or symbol.
-Factor A number or quantity used in multiplication.
+### Working with Binomials
 
-Coefficient The number in front of a variable term that acts as a factor or multiplier.
-Constant A term with no variable component.
-Term A collection of numbers, variables, and powers combined through multiplication.
+**Conjugate** - The conjugate of a binomial is a binomial with the opposite sign between its terms.
 
-Monomial An expression with only one term
+**FOIL** - An acronym to remember the steps for distributing factors in binomial multiplication: First, Outside, Inside, Last.
 
-4x^2 would be called a second-degree monomial because the variable is being raised to the second power.
+## Equations and Inequalities
 
-Binomial An expression with two terms
+### Equations
 
-Polynomial An expression containing several terms.
+**Equation** - A mathematical statement that two quantities or expressions are equal in value.
 
-Equation A mathematical statement that two quantities or expressions are equal in value.
+**Rule of Equality** - Any operation performed on one side of the equation must be performed on the other side, in order to keep quantities equal in value.
 
+**Solving Single-Step Equations**: First identify the operation being applied to the variable. To isolate the variable, apply the inverse operation. Addition and subtraction are inverses of each other; multiplication and division are inverses of each other.
 
-Often as we work with problems, there will be a set of parentheses that make solving a problem difficult, if not impossible. To get rid of these unwanted parentheses, we can use the distributive property. Using this property, we multiply the number in front of the parentheses by each term inside.
+### Inequalities
 
-Rule of Equality Any operation performed on one side of the equation must be performed on the other side, in order to keep quantities equal in value.
+**Inequality** - A mathematical statement that two quantities are not equal in value.
 
-To solve single-step equations, first identify the operation being applied to the variable. To isolate the variable, apply the inverse operation. Addition and subtraction are inverses of each other; multiplication and division are inverses of each other.
+#### Inequality Notation
 
-Inequality A mathematical statement that two quantities are not equal in value.
+**Open Interval** (endpoint not included):
+- Open circle on number line
+- Parentheses: ( or )
+- Symbols: < or >
 
+**Closed Interval** (endpoint included):
+- Closed circle on number line
+- Brackets: [ or ]
+- Symbols: ≤ or ≥
 
-endpoint is not included in linterval
-open circle
-( or )
-< or >
+#### Set Builder Notation
 
+**Vertical Bar ∣** - Read as "such that", separates the variable from the condition that x must satisfy.
 
-endpoint is included in linterval
-closed circle
-[ or ] 
-≤ or ≥
+**Curly Bracket {** - Indicates that we are defining a set.
 
-The vertical bar ∣ (read as "such that") separates the variable from the condition that x must satisfy.
+### Compound Inequalities
 
-The curly bracket { indicates that we are defining a set.
+**Compound Inequalities** - Have two or more inequalities.
 
+**"OR" Inequalities** - Have two or more inequalities, but the solution set satisfies any but not necessarily all of the inequalities.
 
-Compound inequalities have two or more inequalities.
+**"AND" Inequalities** - Only the overlapping parts of the individual graphs make it to the final number line.
 
+**Solving "AND" Inequalities**: When you're solving an "AND" inequality with an algebraic expression between two inequality symbols, any operation done between the symbols must also be done on the other side of both inequality symbols.
 
-"OR" inequalities also have two or more inequalities, but the solution set satisfies any but not necessarily all of the inequalities
+## Radicals and Rationalization
 
-"AND" inequalities, only the overlapping parts of the individual graphs makes it to the final number line
+### Working with Radicals
 
-When you're solving another "AND" inequality with an algebraic expression between two inequality symbols, any operation done between the symbols must also be done on the other side of both inequality symbols.
+**Rationalizing Denominators**: It is considered bad practice to have a radical in the denominator of a fraction. When this happens we multiply the numerator and denominator by the same thing in order to clear the radical.
 
+**Binomials in Numerator**: If the binomial is in the numerator the process to rationalize the denominator is essentially the same as with monomials. The only difference is we will have to distribute in the numerator.
 
+### Historical Context
 
+**Aryabhata's Method**: During the 5th century BC in India, Aryabhata published a treatise on astronomy. His work included a method for finding the square root of numbers that have many digits.
 
+## Sequences and Series
 
-Arithmetic Sequence A set of numbers in numerical order, with a common difference between each term.
-Common Difference The numerical distance between any two consecutive terms in an arithmetic sequence, a constant value.
+### Basic Concepts
 
+**Sequence** - A set of numbers in a particular order.
 
+**Series** - The sum of the first n terms in a sequence.
 
+### Arithmetic Sequences
 
+**Arithmetic Sequence** - A set of numbers in numerical order, with a common difference between each term.
 
-Sequence A set of numbers in a particular order.
-Series The sum of the first n terms in a sequence.
+**Common Difference** - The numerical distance between any two consecutive terms in an arithmetic sequence, a constant value.
 
+### Summation Notation
 
+**Sigma (Σ)** - The Greek letter sigma tells us to sum, or add values of terms in a sequence.
 
-Sigma: This notation tells us to sum the values of terms in a sequence, starting with the first term and ending with the fifth term. How was this information drawn out from this notation? The big E-like symbol is the Greek letter sigma. This is what tells us to sum, or add
+**Summation Notation Components**:
+- **What to sum**: Written directly to the right of sigma, represents the value of the n-th term in a sequence.
+- **Lower index**: Below sigma, tells us where to start summing.
+- **Upper index**: Above sigma, tells us where to stop summing.
 
-What to sum: What exactly are we summing? That's written directly to the right of sigma. The represents the value of the n-th term to a sequence.
+**Summation Notation** - An expression of a series, using the Greek letter sigma, and a lower and upper index to indicate the first and last terms of the sum.
 
-Lower index: Below is the lower index, which tells us where to start summing. In this case, the lower index is 1.
+## Applications and Rate Problems
 
-Upper index: Above is the upper index, which tells us where to stop summing. In this case, the upper index is 5.
+### Conversion and Rates
 
+**Conversion Factor** - A fraction equivalent to 1.
 
-Summation Notation An expression of a series, using the Greek letter sigma, and a lower and upper index to indicate the first and last terms of the sum.
+**Unit Rate** - A ratio between two quantities with different units.
 
+**Examples of Unit Rates**:
+1. **Dollars per hour** - Such as $17.50/1 hr
+2. **Words per minute** - Such as 200 words/1 min
+3. **Calories per serving** - Such as 250 calories/1 serving
+4. **Steps per day** - Such as 3,000 steps/1 day
 
+### Applied Mathematics
 
-
-arithmetic sequences & college algebra in context,
-
-distance, rate, and time.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-A conversion factor is a fraction equivalent to 1. 
-
-A unit rate is a ratio between two quantities with different units, here are some examples (the numerator is the distance, or any other unit, and the denominator is the speed, )
-
-1. Dollars per hour, such as $17.50/1 hr
-2. Words per minute, such as 200 wrds/ 1 min
-3. Calories per serving, such as 250 clres/1 serve
-4. Steps per day, such as 3,000 stps/1 day
-
+**Distance, Rate, and Time** - Fundamental relationships in applied mathematics and college algebra contexts.

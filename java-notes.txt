@@ -1,0 +1,558 @@
+JVM(Java Virtual Machine) - a special software layer that allows java programs to run on any device oroperating system
+
+Replit - an IDE
+
+JDK(Java Development Kit) - a complete software package used for devloping java applications
+
+Eclipse - a IDE used mainly for java
+
+Java Statements - instructions that tell the programming language what to do
+
+Assignment statement - assigns a value to a variable
+
+Java methods - blocks of code that perform a task, and can be used by other parts of a computer program
+
+steps to writing a code:
+
+1 - Understand the problem you are trying to solve
+2 - Design a solution
+3 - Draw a ow chart
+4 - Write pseudo-code
+5 - Write code
+6 - Test and debug
+7 - Test with real-world users
+8 - Release program
+9 - Iterate the steps for the next version
+
+off by one - an error that happens when a loop or calculation goes one step too far or one step too short
+
+
+double - data type used to store decimal numbers
+e.g: double price = 19.99
+
+function syntax in java:
+
+<Access modifier> <keyword> <return type> <method name> (<parameters>){
+<body>
+}
+
+public static void main(String[] args){
+  system.out.println("hello world")
+}
+
+public - accessible anywhere
+
+private - only inside the same class
+
+static - belongs to a class not objects
+
+abstract - has no body must be implemented by a subclass
+
+void - no return value
+
+compiler - a program that converts code, making it readable to a computer
+
+indefinate loop - a loop that keeps running until a certain condition becomes false
+
+definate loop - repeats a specific number of times
+
+
+main method - the entry point of a java porgram it is where the program starts running . without it
+              the program wont run
+
+The main method in Java is declared as static because it allows the main method to be called as the first
+method without having to create an instance of the method.
+
+
+instance - gives the class its data and an object is the same thing as an instance
+
+object - the same thing as a instance
+
+inheritance - when a subclass/child class inherits a method from the parent class
+
+encapsulation - is basically protecting data
+
+polymorphism - the same thing can have different meaning such as communicate
+
+
+difference between extend and implement:
+extend - used when one class inherits from another class
+implement - used when a class follows the rules of an interface
+
+interface - is a mix of polymorphism and abstraction
+
+representational independence - it should do what it represents. a time function should do time like things and should not
+                                shuffle a deck of cards
+
+
+
+nested static class - cannot directly access variables in the outer class it needs to refer to an instance of the outer class
+
+non-static class - just a plain nested class
+
+
+singly linked list - we can go from the head node to the tail node but not back and forth
+
+doubly linked list - we can go back and forth between nodes
+
+circularly linked list - we can go from head node to tail and tail to head
+
+
+local class - a class delcared inside a method
+
+static nested class - a class inside another class that doesnt depend on the outer class's objecct(useful for grouping helper
+                      classes that are only related to the outer class logically)
+
+shadowing - a local variable hides another variable with the same name from an outer scope
+
+experimental analysis - testing an alorithm in practice to see how fast or efficeient it really is
+
+
+
+The limitations of experimental analysis include:
+1 - Implementing algorithms can be a tedious process.
+2 - Hardware and software environments must be the same to compare algorithms (which is practically impossible).
+3 - Input samples may not cover all the possible inputs and scenarios.
+
+exponential search steps :
+1 - start at the first element (index 0)
+2 - check elements at exponential position (1,2,4,8,16) until u find a value bigger than or equal to the target
+3 - once the range is found (e.g between indes 8 and 16) perform binary search in that range
+
+stack - a kind of array that works like a stack of plates. A stack is an implementation of LIFO(last in first out)
+
+LIFO - the last item you put in the stack is the first one you take out
+
+queue - same as a stack but uses FIFO (First-in first-out)
+
+FIFO - the first item you put in is the frst one you take out
+
+
+
+add - adds a new item to the end of the queue -|- item is added but an exception is thrown if there is no room left
+
+element - retrieves the item in front of the queue -|- item is retrieved but not removed
+
+offer - adds a new item to the end of the queue -|- item is added but no exception is thrown if there is no room left
+
+peek - retrieves the item in front of the queue -|- like element, item is retrieved but it is not removed and, will return null if empty
+
+poll - retrieves and then removes the item in the front of the queue -|- item is retrieved, but if the queue is empty, null will be returned
+
+remove - retrieves and then removes the item in the front of the queue -|- item is retrieved, but nothing is returned if the queue is empty
+
+
+deque - is likea normal queue but u can add or remove elements from both ends. it can act as a FIFO or a LIFO
+
+deep copy - creates a whole new array with the same contents
+
+shallow copy - just copies the reference ofthe existing aray meaning both objects share it
+
+positional list - is a technique almost the same as a doubly linked list but more abstract
+
+hash set - is a kind of array where there must be no duplicates and elements are unordered
+
+tree set - similar to hash set but the elements are automatically sorted
+
+collection framework - a group of interfaces and classes that make it easy to store, organize, and manage data efficiently
+                      like a toolbox of ready-made data structures
+
+
+Binary trees - can have at most two children for each parent. Every node contains a 'left' reference, a 'right' reference, 
+               and a data element
+
+root node - The topmost node in the tree
+
+leaf node - A node with no children
+
+
+Full binary tree - Every node other than leaf nodes has 2 child nodes.
+
+Complete binary tree - All levels are filled except possibly the last one, and all nodes are lled in as far left as possible.
+
+Perfect binary tree - All nodes have two children and all leaves are at the same level.
+
+traversal - moving through all nodes in a tree in a specific order
+
+4 types of traversal order:
+preorder - visit the root first, then move to the left subtree, then move to the right subtree 
+        -|- root -> left -> right
+inorder - visit the left subtree first, then the root, then the right subtree
+       -|- left -> root -> right
+postorder - visit the children first, then the root last 
+         -|- left -> right -> root
+
+seven experimental functions in algorithm analysis:
+1 - f(n) = c or O(1) (constant) : time does not depend on the input size
+    e.g: accessing an array element or using basic arithmetic operations
+
+2 - f(n) = log n or O log (n) (logarithimic) - time grows slowly as input size increases
+    e.g: using binary search
+
+3 - O(n) (linear) - time grows proportionally with input size
+    e.g: simple for-loop over array
+
+4 - O(n log n) (linearithmic) - slightly faster than quadratic; common in efficient sorting algorithims
+    e.g: sorting an array
+
+5 - O(n^2) (quadratic) - time grows very quickly as input grows
+    e.g: nested loop
+
+6 - O(n^3) (cubic) - time grows extremely fast
+    e.g: used in loops of 3 levels
+
+7 - O(2^n) (exponential) - time doubles with extra input
+    e.g: recursive fibonacci
+
+contra positive - proving something by proving its opposite form
+
+contra diction - we first assume that the given statement is false. We then later prove it to be 
+                 true since the assumption leads us to a contradiction
+
+loop vairants - a value that changes every time a loop runs and helps prove the loop will eventually
+                stop
+
+induction - technique used to prove a mathematical statement true using all available inputs.
+            For example, if we assume a function A(x) to be true for all positive values of x, then through
+            nite stepwise conditions, we can conclude that the statement is true
+
+type casting - changing a variables data type to another
+
+overloading - having multiple method with the same name but different parameters
+              time grows slowly as input size increases
+
+priority queue - a queue where elements are processed based on priority not the order they were added
+                 and is often built using a heap for fast performance
+
+Serializable - an interace that allows an object to be converted into bytes so it can be saved to a
+               file, sent over a network, or stored and rebuilt later
+
+natural order - means the default sorting order of objects like ascending for numbers or A-Z for strings
+                as defined by their compareTo() method
+
+heap - a binary tree where the parent node is always smaller or larger than is children. 
+       mainly used to manage priorities like in PriorityQueue
+
+min-heap - parent is always smaller than its children
+
+max-heap - parent is always larger than its children
+
+hash table - a data structure that stores data as key-value pairs
+
+hash key - unique name or label u use to store and find a value in a hash table
+
+hash function - is what the hash table uses to convert the key into a number (called hash code)
+
+collision - happens when 2 keys get the same hash position(code) in a hash table
+
+open addressing - method used in hash table to handle collisions instead of storing items in one slot
+                  open adressing finds another emty slot in the table to store the new key
+
+Empty - the slot has never been used and is empty
+
+Occupied - the slot currently stores a key-value pairs
+
+Deleted - the slot used to have a key but was removed
+
+linear probing - move 1 step at a time
+
+quadratic probing - jump by squares (power of 2)
+
+double hashing - use a 2nd hash function to decide how far to jump next time (h1 + i * h2) % n
+
+clustering - happens when many keys get stored close togetherin nearby slots forming a group (cluster)
+
+modular hashing - we take the hash code of a key and then use the remainder when divided by the table size 
+                  to find where to store it -|- index = hash(key) % tableSize
+
+chaining - when 2 or more keys ge tthe same hash index we store all items together in a linked list
+           at that index
+
+robin hood hashing - a collision strategy that evens out probe distances by letting new keys "steal" slots
+                     from keys closer to their ideal position improving fairness and consistency
+
+probe counts - number  of attempts (or, probe) made to find an empty slot or key in the existing bucket
+
+organ-pipe search - a technique to arrange data so that frequently searched items are near the center
+                    of the list and the less used ones are at the edges, its names coming from the 
+                    access pattern looking like the shape of organ pipe
+
+lambda - a short anonymous function your able to pass around, usually to implement a functional interface
+
+
+binary search tree - a data structure where each node has at most 2 children:
+                     left childs value is smaller
+                     the right childs value is larger
+
+binary search key - the value youre looking for during a binary search or inside a binary search tree
+
+sort map - a searchable collection of elements. The searchable elements are characterized by a 
+           unique identier which is associated with the element
+
+BST Operations:
+    adding:
+        1. start from the root
+        2. if new value < current node -> go left
+        3. if new value > current node -> go right
+        4. if spot empty -> insert the new node
+    
+    searching:
+        1. start at the root
+        2. compare the search values with the current node
+            - if its smaller -> go left
+            - if its largere -> go right
+            - if equal -> found
+        3.stop when found or if u reach a null pointer(null)
+
+    deletion:
+        3 cases for deletion:
+            1. node has no children -> just delete it
+            2. node has one child -> replace node with its child
+            3. node has 2 children:
+                - find inorder successor (smallest node in right subtree)
+                - replace node's value with that sucessor's value
+                - delete the sucessor node
+
+AVL trees - a self-balancing binary search tree where every node's left and right subtrees differ height
+            by at most 1. it uses rotations to keep the tree balanced after insertions or deletions
+
+4 types of rotations:
+    1. LL(left-left)
+        - node added to left of left child. fixes the right rotation
+    2. RR(right-right)
+        - node added to right of right child. fixes the left rotation
+    3. LR(left-right)
+        - node added to right of left child fixes the left right rotation(2 steps)
+    4. RL(right-left)
+        - nodeadded to left of right child fixes the right-left rotation(2 steps)
+
+
+rotations - means turning the nodes around a point to restore balance after insertions or deletions
+
+splay tree - a self-adjusting binary search tree that moves recently accessed elements closer to the 
+             root using the operation called splaying 
+
+zig - the nodes parent is the root, a single rotation brings the node to the root
+
+zig-zag - the node is a child node and its parent is right node, or vice versa
+
+zig-zig - the node and its parent are both left / right children, two rotations are performed in the same direction.
+
+searh trees - a data structure used for storing data in ways making searching, insertion, and deletion efficient
+
+multiway search trees - a multiway searh tree, balanced, as all leaves are at the same depth its a b-tree
+                        of order four, (each node has <= 3 keys, <= 4 children)
+
+
+search algorithm - a method used to find a specific item or piece of data within a collection, such as
+                   a array, list, tree, or graph
+
+primality testing algorithms - determining if a number (n) is prime
+
+deterministic - always gives the correct answer
+
+probabilistic methods - doesnt garuntee primality but aare very fast and almost always correct
+
+sieve of eratosthenes - finds all prime numbers up to n and is 100% accurate
+
+bubble sort - compares neighbors and swaps them until the list is sorted
+
+selection sort - picks the minimum from the unsorted part and moves it to a sorted part
+
+merge sort - splits the array, sorts each half and then merges them
+
+quick sort - picks a pivot element, splits the array so that the numbers smaller than the pivot
+             go to the left and numbers bigger go to the right
+
+partition-exchange sort - just another name for quick sort
+
+insertion sort - starts from the 2nd element, compare with element before it, shift the larger element
+                 to the right, insert element into correct spot
+
+immutable - can't be changed once it is created
+
+brute-force algorithm - checking all possible solutions 
+
+Boyer-moore algorithm - a fast string search algorithm that compares from the end and skips ahead using
+                        mismatch rules
+
+Knuth-Morris-Pratt Algorithm (KMP) - searches for a pattern inside a text by using lps to avoid re-checking
+                                     characters after mismatches
+
+longest proper prex array - an array that tells kmp how much of the pattern has repeated so it can skip
+                            ahead after mismatches instead of starting over
+
+trie - a tree structure that stores strings efficiently by sharing common prefixes making word searches easy
+
+trie node - stores a single character 
+
+standard trie - basic version of prefix tree where each node represents a character, shares common 
+                prefixes and mmarks the end words
+
+compressed trie - stores sequences of characters in a single node instead of one character per node, 
+                  reducing memory usage and speeding up searches compared to a standard tire
+
+greedy algorithm - solves problems by choosing the best option at each step hoping it gives the best overall solution
+
+graph theory - the study of graphs
+
+vertices - nodes in a graph
+
+isolated vertex - a vertex with no lines connecting it to others
+
+adjacent vertices - This refers to connected vertices that are next to each other
+
+degree of vertex - This tells us how many lines are connected to the vertex
+
+even vertex - even number of vertex
+
+odd vertex - odd number of vertex
+
+edges - the lines in the graph
+
+multiple edges - lines that connect the same vertices together
+
+adjacent edges - edges that are next to each other
+
+path - multiple edges
+
+length of the path - number of edges we take
+
+connected graph - a graph where all vertices are connected together
+
+disconnected graph - a graph where all vertices are not connected together
+
+components - a 2nd graph or subgraph
+
+bridge - when we add a connection between 2 subgraph
+
+loops - An edge that connects a vertex to itself. 
+
+simple graph - nothing special just a graph with connection with no direction or weighted
+
+weighted graph - a graph where each edge has a weight or cost (e.g: A - 5 - B , B - 2 - C , A - 8 - C)
+
+directed graph - has edges with direction. edges are like arrows: A -> B means u can go from A to B
+                 not the other way unless theres an arrow back
+
+undirected graph - has edges with no directions if A is connected to B you can go both ways: A - B
+
+adjacency matrix - a 2d table that shows all connections between vertices in a graph
+
+adjacency list - a list that stores each vertex and the vertices it is connected to
+
+Dijkstra's algorithm - finds the shortest distance from one node to every other connected node
+                       as long as all edges weights are non-negative
+    
+    Dijkstra algorithm steps:
+        1. start at a source vertex
+        2. set its distance to 0 and all other distances to infinity (simply means no known path yet)
+        3. repeatedly choose the closest unvisited vertex 
+        4. update(relax) the distances to its neighbors:
+            - if going through this vertex gives a shorter path -> update it
+        5. mark the vertex as visited
+        6. continue until all vertices are visited
+
+Null graph - Also called an empty graph, a null graph is a graph in which there are no edges between
+             any of its vertices.
+
+Connected graph - A graph in which there is a path of edges between every pair of vertices in the
+                  graph. Mary's graph is a connected graph, since there is a way to get from every 
+                  city on the map to every other city.
+
+Disconnected graph - A graph in which the path of edges does not always connect every vertex.
+
+Bipartite graph - A graph that can be split into two sets of vertices such that edges only go between
+                  sets, not within them.
+
+Weighted graph - A graph in which weights, or numerical values, are assigned to each of the edges.
+                 Mary's graph is a weighted graph, where the distances between the cities are the 
+                 weights of the edges.
+
+Directed graph - A graph in which the edges are directed by arrows, indicating that the relationship,
+                 represented by the edge, only applies from one vertex to the other, but not the other 
+                 way around. In other words, if a directed edge has an arrow from A to B, A is 
+                 related to B, but B is not related to A.
+
+Undirected graph - A graph whose edges are not directed. Mary's graph is an undirected graph,
+                   because the routes between cities go both ways.
+
+Simple graph - An undirected graph in which there is at most one edge between each pair of vertices,
+               and there are no loops, which is an edge from a vertex to itself.
+
+Multi-graph - A graph in which there are multiple edges between any pair of vertices or there are
+              edges from a vertex to itself, also called a loop.
+
+Planar graph - A graph that can be drawn so that all of the edges of the graph do not cross each other.
+
+Nonplanar graph - A graph that is not a planar graph. In other words, a graph that cannot be drawn
+                  without at least one pair of its edges crossing.
+
+
+
+cyclic grpah - a directed graph that contains a path from at least one node back to itself 
+
+acylic graph - a directed graph that contains absolutely no cycle; that is, no node can be traversed 
+               back to itself.
+
+dense graph - a graph where almost every node is connected to many other nodes
+
+sparse graph - a graph where most nodes are NOT connected to many other nodes
+
+memory management - the process of allocating memory to new Java objects and deallocating memory from
+                    unused objects
+
+stack memory - temporary memory for method excecution and local variables cleaned automatically
+               when methods end
+
+heap memory - where java puts objects and arrays managed by the garbage collector    X
+
+garbage collector - the automatic system that deletes unused objects from the heap to free memory    
+
+mark and sweep algorithm - a 2 step prcoess to remove unused objects from heap memory:
+                           1 - mark phase -> find which objects are still in use
+                           2 - sweep phase -> remove all objects that are NOT  marked
+
+cache memory - ulta-fast memory that stores data the cpu needs soon, making the computer run much faster
+
+web cache - stored website data that makes pages load faster and save bandwidth
+
+cpu cache - very fast memory that reduces waiting time by keeping frequently used data close to the processor
+
+cache hit - happens when the cpu successfully finds the data it needs inside the cache instead of
+            going slower memory(RAM)
+
+cache miss - happens when the cpu looks for data in the cache but the data is NOT there so it must fetch
+             it from slower memory(RAM)
+
+multi-level caches - refers to a cpu having multiple layers of cache memory(L1,L2,L3) to improve speed and efficiency
+    L1 - fastest but smallest. located extremely close to the cpu cores
+    L2 - slower than L1 but larger. can be priate per core or shared
+    L3 - slowest but largest, but still much faster than RAM. shared by all cpu cores
+
+external searching - searching data that is stored outside of main memory(like on hard disk or SSD)
+                     because the data is too large to fit in RAM
+
+B-trees - special type of balanced search tree designed for external memory
+
+internal memory - primary memory of a computer that is directly accessible by the CPU
+
+external memory - secondary storage of a computer used to store data permently or when it doesnt fit in 
+                  internal memory
+
+internal sorting - sorting method where all the data to be sorted fits into the main memory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

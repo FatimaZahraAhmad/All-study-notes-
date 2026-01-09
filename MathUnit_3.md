@@ -1,324 +1,99 @@
+# Mathematics Unit 3
 
-Maths 4
+## Polynomial Basics
 
+### Definitions
 
-Monomial An expression containing a single term, The prefix "mono" means "one". A monopoly is a market that is controlled by a single company, A monocle is eye-wear that consists of only one lens.
+**Monomial** - An expression containing a single term. The prefix "mono" means "one". (Examples: Monopoly = market controlled by single company, Monocle = eye-wear with single lens)
 
-Polynomial An expression with several terms, The prefix "poly" means "many." 
-A polytheistic religion believes in many deities
+**Polynomial** - An expression with several terms. The prefix "poly" means "many." (Example: Polytheistic religion believes in many deities)
 
-Degree (of a Term) The sum of all variable exponent powers in the term or polynomial.
+**Degree (of a Term)** - The sum of all variable exponent powers in the term or polynomial.
 
---
-page 5
-QUESTION:
-Rewrite the following polynomial expression so that it is in proper order and also determine the degree:
+**Degree (of a Polynomial)** - Also called order, the highest degree of the terms in a polynomial expression.
 
-Here, we see a first-degree term, followed by a second-degree term, followed by a third-degree term. We need to write the terms in order of descending degree (highest to lowest):
+**Like Terms** - Same variables which are raised to the same power. Examples: 2x² and 7x² are like terms. To combine them, add their coefficients. If coefficients are negative, treat as subtraction.
 
-The degree of this polynomial is 3.
-QUESTION END
---
+## Polynomial Operations
 
-Degree (of a Polynomial) Also called order, the highest degree of the terms in a polynomial expression
+### Ordering Polynomials
 
-Like terms
-same variables which are raised to the same power, i.e 2x^2 and 7x^2 are like terms, in order to combine them, you have to add their coefficients (meaning the base number.), if the coefficients are negative, we can think of it as subtraction.
+**Proper Order**: Write terms in order of descending degree (highest to lowest).
 
---
-page 8
-QUESTION
-Rewrite the following polynomial by combining like terms:
+### Adding Polynomials
 
+**Vertical Addition Method**:
+1. Write polynomials vertically, aligning like terms
+2. Use terms with coefficient of zero as placeholders for missing terms
+3. Combine coefficients of like terms
 
+### Subtracting Polynomials
 
-Let's rewrite this polynomial with the combined like terms:
+**Vertical Subtraction Method**:
+1. Write polynomials vertically with alignment
+2. Add zero coefficients for missing terms
+3. Group each polynomial in parentheses
+4. Subtract coefficients of like terms, being careful with signs
 
-QUESTION END
---
+## Multiplication of Polynomials
 
---
-PAGE 8
-QUESTION
-Add the following two polynomials:
+### Distributive Property
 
-Let's first set this up by writing the problem vertically:
+**Single Term Distribution**: Distribute the single term into each term in parentheses, then evaluate the multiplication.
 
-Before we complete the addition, let's take a closer look at the vertical set up. The whole point of writing the addition vertically is to line up the like terms. But notice that there are some terms in one polynomial that are not in the other, so like terms are not lining up together. In this case, it helps to write a term with a coefficient of zero as a placeholder to keep everything vertically aligned.
+**Multiple Term Distribution**: Use FOIL method for binomial multiplication:
+- **F** - First terms
+- **O** - Outside terms
+- **I** - Inside terms
+- **L** - Last terms
 
-Now we can add the two polynomials together, combining the coefficients of like terms: 
+**Multiplication Rules**:
+- Multiply coefficients together
+- Add exponents for same variables
+- Write different variables next to each other to show multiplication
+- Rewrite in descending order of degree
 
+## Factoring Polynomials
 
-QUESTION END
---
+### Common Factor Method
 
---
-page 9
-QUESTION
-Subtract the following two polynomials:
+**Steps**:
+1. Identify common factor in all terms
+2. Rewrite each term with the common factor
+3. Factor out the common factor
+4. Rewrite parentheses if needed (negative signs become subtraction)
 
-Once again, we'll write the problem vertically and add terms with coefficients of 0 to keep everything aligned. It also helps to group each polynomial in parentheses, so that we can get the subtraction out in front and still be aware of the signs of each term within the polynomial
+### Division of Polynomials
 
-Now we can subtract the two polynomials, evaluating for the coefficients of like terms:
+**Polynomial Long Division**: Similar to numeric long division with these steps:
+1. Divide
+2. Multiply
+3. Subtract
+4. Bring down next term
+5. Repeat until complete
 
-Was any part of that subtraction tricky? It was probably easy enough to get the coefficients of the first two terms:
+**Synthetic Division**: A process designed to be easier than polynomial long division.
 
+**Synthetic Division Steps**:
+1. Set up using coefficients of dividend polynomial and constant term of divisor
+2. Bring first number down below
+3. Multiply this number by value to left of box
+4. Write product below next number in box
+5. Add vertically, write below box
+6. Repeat until no more operations
 
-However, sometimes it can be difficult to remember signs with subtraction, especially for the last two coefficients:
+**Important Note**: For divisor (x - a), if factor has plus sign, the value of "a" is actually negative.
 
-QUESTION END
---
+## Special Polynomial Types
 
---
-page 11
-QUESTION
+### Quadratic
 
-Distribute 2 into each term in the parentheses
+**Quadratic** - A second-degree polynomial, with an x-squared term as its highest degree term.
 
-Evaluate the multiplication
+## Applications
 
-Our solution
+### Electrical Applications
 
-QUESTION END
---
+**Voltage Calculation**: To find voltage, multiply current by resistance.
 
---
-page 11
-QUESTION
-
-Multiply the coefficients 2 and 3 together
-Multiply the x terms together by adding their exponents
-
-Our solution
-
-QUESTION END
---
-
---
-page 12
-QUESTION
-
-Multiply the coefficients -2 and 7 together
-Since they are not the same variable, write and y next to each other to show
-they have been multiplied.
-Our solution
-
-QUESTION END
---
-
---
-page 12
-QUESTION
-
-Distribute 3y into each term in the parentheses
-Evaluate the multiplication
-Our solution
-
-QUESTION END
---
-
---
-page 13
-QUESTION
-
-Distribute -4 into each term in the parentheses
-
-Evaluate the multiplication
-Our solution
-
-QUESTION END
---
-
---
-page 13
-QUESTION
-
-Distribute 5x into each term in the parentheses
-Evaluate the multiplication
-Rewrite in descending order of degree
-Our solution
-
-QUESTION END
---
-
---
-page 14
-QUESTION
-
-
-
-
-
-
-
-QUESTION END
---
-
-
-
-
-
-As you are multiplying with FOIL, you can also just write this as one, long expression and then evaluate:
-
-
-
-
-
-
-
-
---
-page 14
-QUESTION
-dressed to the ninth degree sippin artisanal tea. 
-
-
-
-
-
-
-
-
-
-Our final step is to add these two polynomials. Remember to use coefficients of 0 to keep the vertical alignment between like terms.
-
-
-QUESTION END
---
-
-
---
-page 16
-QUESTION
-
-Rewrite each term with the common factor of 4
- Factor out the 4 in each term
- Our solution
-
-
-QUESTION END
---
-
--- 
-page 16
-QUESTION
-
-Rewrite each term with the common factor of -6
- Factor out the -6 in each term
- Rewrite parentheses as subtraction
- Our solution
-
-QUESTION END
---
-
-
--- 
-page 17
-QUESTION
-
-
-QUESTION END
---
---
-page 17
-QUESTION
-
-Write as a division problem
-
-Rewrite each term with a common factor of 3x
-
-Rewrite as separate fractions
-
-Perform the division in each term - this is our solution
-
-QUESTION END
---
-
---
-page 20
-QUESTION
-
-As you read through the steps, think about how the process is similar to numeric long division.
-
-
-
-
-
-
-At this point, we repeat our steps of dividing, multiplying, subtracting, and bringing down the next term:
-
-
-
-
-
-We repeat the cycle of steps once again:
-
-
-
-
-
-Synthetic division
-a process that is designed to be easier than polynomial long division
-
-
-
-steps:
-1. Set up synthetic division using coefficients of the dividend polynomial and the constant term of the divisor. 2. Bring the first number in the box down below. 3. Multiply this number by the value to the left of the box. 4. Write the product below the next number in the box. 5. Add vertically, and write this below the box. 6. Repeat these steps until there are no more operations left to do.
-
---
-page 23
-QUESTION
-
-First, use the coefficients of the dividend (what is being divided) and write them inside of a box, as shown below:
-
-Next, we write in the value for "a" in our general (x - a) form for the divisor (what we are dividing by). Because we generally say (x - a), if the factor we are dividing by has a plus sign, the value of "a" is actually negative. Since we are dividing by x + 3, then our divisor is actually -3.
-
-Bring the first number, 2, down below.
-
-
-Multiply 2 by the value to the left of the box, -3, which equals -6. Write this product below the next number in the box, 3.
-
-Add 3 and -6 vertically, which equals -3. Write this below the box.
-
-We repeat this process to complete the table:
-
-
-QUESTION END
---
-
-
-
-
-Quadratic A second-degree polynomial, with an x-squared term as its highest degree term.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-To find the voltage, we need to multiply the current by the resistance;
-
-
-
-To get an expression for the current, we will need to divide the voltage by the resistance (the voltage is top and the resistance in bottom);
-
-
-
+**Current Calculation**: To get expression for current, divide voltage by resistance (voltage as numerator, resistance as denominator).
