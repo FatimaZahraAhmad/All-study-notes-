@@ -80,9 +80,6 @@ A document written form, coming from a customers perspective, describing what th
 
 
 
-
-
-
 - Software Engineering Methodologies
 
      - Waterfall Method 
@@ -626,7 +623,7 @@ A an approach that develops software in small iterations with continuous feedbac
 
 
 - Planning Game
-a meeting that includes the developers, the project manager, and the stakeholders in order to dene the short-term priorities 
+a meeting that includes the developers, the project manager, and the stakeholders in order to define the short-term priorities 
 that will be delivered before the next iteration.
 
 
@@ -635,7 +632,7 @@ a practice where tests are written first to define desired behavior, and code is
 
 
 - Continuous Integration (CI)
-a practice where code changes arefrequently integrated and automatically tested to detect problems early.
+a practice where code changes are frequently integrated and automatically tested to detect problems early.
 
 
 - collaboration and empowerment
@@ -652,6 +649,7 @@ Collaboration means people working together to achieve the same goal, Empowermen
 - Self-Regulate
 
 
+
 - Scrum team
 
      - . Product Owner    :
@@ -659,7 +657,7 @@ Collaboration means people working together to achieve the same goal, Empowermen
      - . Development Team :
 
 
-- Daily  Scrum
+- Daily Scrum
 
      1. ''
      2. ''
@@ -667,13 +665,13 @@ Collaboration means people working together to achieve the same goal, Empowermen
      4. ''
 
 
-- Sprint Planning 
+- Sprint-Planning 
 
 
-- Product Backlog 
+- Product-Backlog 
 
 
-- Sprint Review
+- Sprint-Review
 
 
 - Sprint Retrospective
@@ -682,38 +680,47 @@ Collaboration means people working together to achieve the same goal, Empowermen
 
 
 
-##                ____________________ FILE 5 ____________________ 
+##                ____________________ FILE 6 ____________________ 
 
 
 
 
 
 
+- Lean Software Development
 
 
-
-
-- 
-
-
-
-
+- Agile Modeling
 
 
 
 
 
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOLDER 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 
 
 
+##                ____________________ FILE 1 ____________________ 
+ 
+ 
+ 
+
+
+- Iterative Approach   
+
+
+- Crystal 
 
 
 
 
+##                ____________________ FILE 2 ____________________ 
 
 
+
+-   
 
 
 
