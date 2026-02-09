@@ -1,5 +1,11 @@
 
 
+#     folder
+##    file
+###   example
+###
+
+
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOLDER 1 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -30,11 +36,11 @@ The physical parts of a computer that you can see and touch needed in order to r
      ### I.E : Disk drive, USB port, ETC..
 
 - Basic Input/Output System [BIOS]
-When you start the computer, the [BIOS] loads and runs before your hard drive even connects,
+ start the computer, the [BIOS] loads and runs before your hard drive even connects,
 checking the connection to hardware and looks for the operating system to load.
 
-- Unified Extensible Firmware Interface [UEFI]
-Firmware that starts the computer and loads the operating system.
+
+
 
 
 
@@ -53,7 +59,7 @@ The field of designing, creating, testing, and maintaining software.
      This step is connected with [CRS] in order for the customer to properly specify what they need.
 
      - 2. Requirement Analysis: Is the Project Feasible?
-     Analysing and exploring issues related to the nancial, technical, operational, and time
+     Analysing and exploring issues related to the financial, technical, operational, and time
      management aspects of software development.
        
      - 3. Creating a Design
@@ -74,8 +80,7 @@ framework for building software properly, describing the entire life of a softwa
 to the time it is used, updated, and eventually replaced.
 
 - Customer Requirement Specification [CRS]
-A document written form, coming from a customers perspective, describing what the software will do and operate as simply as they want.
-
+A customer-focused document that defines the system’s requirements in clear, non-technical terms
 
 
 
@@ -86,8 +91,8 @@ A document written form, coming from a customers perspective, describing what th
      A fixed sequence where each step must be completed before moving to the next. 
      Changes / restarting are difficult to apply once development starts.
 
-     - Incremental Method (Spiral Model)
-     Built gradually, where you add small features step by step to a software you want. 
+     - Incremental Method
+     Develops software in small, functional increments, delivering working versions regularly until the complete system is built.
 
      - Verification and Validation Method
      Focuses mainly on Verification [Building the software right] and Validation [Building the right thing] towards a software.
@@ -107,8 +112,6 @@ A document written form, coming from a customers perspective, describing what th
 
 
 
-- System Analysis
-The process of studying a system to understand how it works and what it needs to do.
 
 
 - Software Process
@@ -146,9 +149,6 @@ The process of studying a system to understand how it works and what it needs to
 
 
 
-- System
-The organized relationship between any group of components which are
-linked or working together to achieve a common goal. 
 
 System Analysis Importance
    - 1. Identification of the System's Objectives
@@ -178,8 +178,7 @@ System Developement Life Cycle [SDLC]
       . Maintenance     : Once the system is installed, support plans are put in place either with internal IT staff or external vendors.
 
 
-- Prototype
-a working model of the software (not finished) to use for testing and redoing.
+
 
 
 
@@ -204,14 +203,21 @@ a way of analyzing, designing, and building software by thinking in terms of obj
 
 
 - What is the Difference Between **Object Oriented Analysis and Design** [OOAD] and **Object Oriented Programming** [OOP] ?
-OOAD focuses on analyzing and designing software using objects,
-while OOP focuses on implementing those designs using object-oriented programming languages.
+OOAD is like this— it is the process before the coding happens. It stands for Object-Oriented Analysis and Design— Which, of course concludes the two steps, analysis, and design.
+In analysis, we analyze and take the information of the project, like if building a house, they ask how much the owner cooks, how many bathrooms, etc.
+
+Meanwhile, OOP is more like this— it is the process of the coding. It stands for Object-Oriented programming, and it is basically like the coding, the whole process.
+it uses techniques like encapsulation, inheritance, and more!
+
+
+
+
 
 ##                ____________________ FILE 7 ____________________ 
 
 
 - Software Development Life Cycle 
-basically a guide or structured process that shows how software is 
+basically a guide or structured process that shows how software is
 planned, developed, tested, released, and maintained step by step.
 
 
@@ -229,8 +235,8 @@ planned, developed, tested, released, and maintained step by step.
 
 - User Stories
 often used to describe the desired functionality. User stories have the structure of:
-     ### FORMAT: As a <user>, I want <functionality> so that <value for the user/reason>.
-    #### EX: As a Student, I want to bookmark my lessons so that i can find them easily.
+     ### FORMAT: As a <user>, I want <functionality> so that <value / reason>.
+     ### EX: As a Student, I want to bookmark my lessons so that i can find them easily.
 
 
 ##                ____________________ FILE 8 ____________________ 
@@ -270,8 +276,6 @@ a software development model that rapidly builds applications using prototyping 
         . Vigorous Testing                           : Not performing proper or essential tests before releasing the software.
 
 
-- Disposition
- A phase where the project is reviewed after failure and reusable components are identified
 
 - Common types of testing
        1. Negative 
@@ -285,21 +289,30 @@ a software development model that rapidly builds applications using prototyping 
 
 
 
+
+
+
+
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOLDER 2 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 [File one not written since it has no usefulness.]
 
 
+
+
+
 ##                ____________________ FILE 2 ____________________ 
 
 
+
+
 - Pattern
-a generalized set of predened steps that solve a specic problem or achieve a goal
-in an organized fashion. 
+A reusable solution to a problem that occurs repeatedly in software engineering.
 
 - Process Pattern
-a group of proven steps that complete a specic task or tasks and provide a consistently favorable result for a common problem.
+A type of pattern that provides a reusable way to organize activities, roles, and steps during software development.
 
       . Phase   : a process pattern that focuses on the overall flow of the problem or goal solution, and the major sections needed to complete it. 
       . Stage   : a process pattern that focuses on the actions or activities needed to realize each phase. 
@@ -313,15 +326,18 @@ a group of proven steps that complete a specic task or tasks and provide a consi
       . Kick-Off     : Team members and stakeholders meet at the start of a project to confirm goals, roles, scope, and officially begin the project.
 
 
+
+
+
 [File three not written since it has no usefulness.]
 
 ##                ____________________ FILE 4 ____________________ 
+ 
 
 
 
 - The Incremental Model
-way of building software step by step in which, instead of creating the whole software at once, the system is developed in small parts (increments),
-and each part adds new features.
+way of building software step by step where instead of creating the whole software at once, the system is developed in small parts (increments), each part adding new features.
 
 - Muddling Through
 An idea invented by **Charles Lindblom,** made for making decisions by trying small changes instead of making one big perfect plan.
@@ -361,10 +377,10 @@ An idea invented by **Charles Lindblom,** made for making decisions by trying sm
 
 - Spiral Model
 
-     - . Planning Phase       : Get an understanding of the customer's requirements for the software project.
-     - . Risk Analysis Phase  : The software team examines the project and software to determine the potential for any issues or predicaments.
-     - . Developmental Phase  : Developmental phase is exactly what it says. In this phase, you develop the software.
-     - . Evaluation Phase     : When the customer evaluates the software. 
+     - . Planning        : Get an understanding of the customer's requirements for the software project.
+     - . Risk Analysis   : The software team examines the project and software to determine the potential for any issues or predicaments.
+     - . Developmental   : Developmental phase is exactly what it says. In this phase, you develop the software.
+     - . Evaluation      : When the customer evaluates the software. 
 
 
 
@@ -375,7 +391,10 @@ An idea invented by **Charles Lindblom,** made for making decisions by trying sm
 
 
 - Concurrent Model
-a software development model where different activities happen at the same time, rather than one after another. [meaning synchronously.]
+A model where different activities happen at the same time [synchronously.]
+
+
+
 
 
 
@@ -443,13 +462,13 @@ A guide that explains how to plan and build software step by step.
 
 
 
+
+
 ##                ____________________ FILE 9 ____________________ 
 
 
 - Formal methods model
-An approach to software engineering that applies mathematical
-methods or techniques to the process of developing complex software systems.
-
+An approach that uses mathematical logic to specify and verify software so that it is proven to obey its defined constraints and rules. (uses math to make project perfect and not break specific boundarys)
 
 
 - Property-based specification
@@ -483,7 +502,7 @@ A way of describing a system by creating an abstract model of it.
 
 
 - Unified Process Model [UPM]
-
+UPM builds software by repeating steps [iterative], adding features little by little [incremental], focusing on what users do [use case], and designing a strong system structure early [architecture centric].
 
      1. Inception     : Decide what the project is about, collect basic requirements, Check if the project is possible, affordable, and worth doing.
      2. Elaboration   : Explain requirements in more detail, create use cases, design the system’s main structure (architecture).
@@ -531,9 +550,6 @@ individuals or groups that have an interest in or are affected by a system or pr
      1. Difficult to assess the amount of effort and resources required,
      2. Less emphasis on creating documentation,
      3. Users are required to test on an almost continuous basis.
-
-
-
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOLDER 3 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -595,8 +611,8 @@ Step 5 – Release  : Give the product to the customer.
 
 
 
-
 ##                ____________________ FILE 3 ____________________ 
+
 
 
 
@@ -621,7 +637,6 @@ A an approach that develops software in small iterations with continuous feedbac
 
 
 
-
 - Planning Game
 a meeting that includes the developers, the project manager, and the stakeholders in order to define the short-term priorities 
 that will be delivered before the next iteration.
@@ -631,12 +646,7 @@ that will be delivered before the next iteration.
 a practice where tests are written first to define desired behavior, and code is written afterward to satisfy those tests.
 
 
-- Continuous Integration (CI)
-a practice where code changes are frequently integrated and automatically tested to detect problems early.
 
-
-- collaboration and empowerment
-Collaboration means people working together to achieve the same goal, Empowerment means giving people the trust and authority to make decisions.
 
 
 ##                ____________________ FILE 5 ____________________ 
@@ -647,34 +657,53 @@ Collaboration means people working together to achieve the same goal, Empowermen
 
 
 - Self-Regulate
+to automatically control and adjust actions based on feedback, without external direction.
 
 
 
-- Scrum team
+- Scrum team 
 
-     - . Product Owner    :
-     - . Scrum Master     :
-     - . Development Team :
+     - . Product Owner    : Decides what the product needs, and what should be built. [Not the customer]
+     - . Scrum Master     : Makes sure Scrum is followed, and helps the team run smoothly. [A coach, Not a boss.]
+     - . Development Team : Builds the product, and does the actual work needed. [No subroles: 'only tester', 'only coder']
 
 
 - Daily Scrum
+a short stand-up meeting that shouldn't last longer than 20 mins. In this meeting the
+Scrum Master will ask the team 3 questions:
 
-     1. ''
-     2. ''
-     3. ''
-     4. ''
-
-
-- Sprint-Planning 
+     1. 'What have you accomplished since last meeting?'
+     2. 'What have you planned to accomplish today?'
+     3. 'Do you have any impediments that will prevent you from accomplishing your work?'
 
 
-- Product-Backlog 
+- Sprint Planning
+a Scrum event where the team plans what work will be completed in the upcoming Sprint and how it will be done.
 
 
-- Sprint-Review
+- Product Backlog 
+an ordered list of all features, fixes, and work needed for a product.
+
+
+- Sprint Reviews
+A meeting at the end of a Sprint to review completed work and gather feedback.
 
 
 - Sprint Retrospective
+A meeting where the Scrum team reflects on its process and plans improvements for the next Sprint.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -686,17 +715,20 @@ Collaboration means people working together to achieve the same goal, Empowermen
 
 
 
+ 
 
 - Lean Software Development
+A methodology that focuses on delivering customer value by eliminating waste and continuously improving the development process.
 
 
 - Agile Modeling
-
+An approach to creating and using models that supports Agile software development.
 
 
 
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOLDER 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 
@@ -709,9 +741,13 @@ Collaboration means people working together to achieve the same goal, Empowermen
 
 
 - Iterative Approach   
-
+An approach develops software through repeated cycles, improving the product with each iteration based on feedback.
 
 - Crystal 
+An Agile methodology that emphasizes people, communication, and tailoring the process to the project.
+
+
+
 
 
 
@@ -720,7 +756,302 @@ Collaboration means people working together to achieve the same goal, Empowermen
 
 
 
--   
+- Acceptance Criteria 
+The conditions that a product feature must satisfy to be accepted by the customer or Product Owner.
+
+
+- Use Cases
+describes how a user interacts with a system to achieve a specific goal.
+
+
+- Minimum Viable Product [MVP]
+the simplest version of a product that delivers value and allows feedback from users.
+
+
+
+
+##                ____________________ FILE 3 ____________________ 
+
+
+
+
+- End Product 
+the final, complete version of a product delivered to users or customers.
+
+
+- Agile Project  
+a project managed using Agile methods, delivering work in small increments with continuous feedback.
+
+    * . Management Style      : 
+    * . Features              : 
+    * . Planning              : 
+    * . Phases                : 
+    * . Change Control        : 
+    * . Progress Monitering   : 
+    * . Risk Management       : 
+
+
+
+
+- Close Collaboration 
+Team members work together frequently with constant communication, shared code ownership, rapid feedback, and active knowledge sharing
+
+- Sprint Backlog 
+The list of work items a development team commits to completing during a single sprint (typically a 2-4 week time period in Scrum/Agile).
+ 
+- Product Backlog
+
+
+- Sprint Burndown Chart
+
+
+- Kanban 
+A framework that offers a prioritization of the work in progress so
+that the team proceeds to the next task once the current task is successfully accomplished.
+
+- Lean
+eliminate waste, improve efficiency, and deliver maximum value to the customer.
+
+
+
+
+
+##                ____________________ FILE 4 ____________________ 
+
+
+
+
+
+
+- Agile attributes to follow :
+
+     * . Team size               :
+     * . Specialization of roles :
+     * . Iteration length        :
+     * . Synchronized cadence    :
+     * . Release definition      :
+     * . Batch size              :
+     * . Product owner role      :
+     * . User role               :
+
+
+- Disciplined Agile Delivery [DAD]
+
+
+- Large Scale Scrum [LeSS]
+
+
+- Scaled Agile Framework [SAFe]
+
+
+
+
+
+
+
+
+##                ____________________ FILE 5 ____________________ 
+
+
+
+
+
+
+
+- RAD
+
+
+
+- Modularized
+
+
+
+
+
+
+
+##                ____________________ FILE 6 ____________________ 
+
+
+
+
+
+
+
+- Joint Application Development [JAD]
+
+
+
+- Phases of JAD
+
+     • Define Objectives    : 
+     • Session preparation  : 
+     • Session conduct      : 
+     • Documentation        : 
+
+
+
+- Documentation Expert
+
+
+
+
+
+
+
+##                ____________________ FILE 7 ____________________ 
+
+
+
+
+
+
+- Stage-Gate Process Development Funnel
+
+
+- Gate
+
+
+
+
+
+
+##                ____________________ FILE 8 ____________________ 
+
+
+
+
+
+- Software Testing
+
+     • Black-Box  : 
+     • White-Box  :
+     • Gray-Box   :
+
+
+
+- Properties of Testing
+
+
+     • Quality Assurance   :
+     • Functional Testing  :
+
+
+
+
+
+
+
+##                ____________________ FILE 9 ____________________ 
+
+
+
+
+
+
+- Unit Testing
+
+
+- Integration Testing
+
+
+- Smoke Testing            / Build Verification / Confidence Testing 
+
+
+- System Testing
+
+
+- Business Level Testing 
+
+
+- Test Scripts
+
+
+- User Acceptance Testing  [UAT] 
+
+
+- Formal Acceptance Testing
+
+
+
+
+
+
+
+
+
+##                ____________________ FILE 10 ____________________ 
+
+
+
+
+
+- Four different types of software maintenance :
+
+     • Corrective maintenance :
+     • Adaptive   maintenance :
+     • Perfective maintenance :
+     • Preventive maintenance :
+
+
+
+
+
+##                ____________________ FILE 11 ____________________ 
+
+
+
+
+
+
+-  Refactoring
+
+
+- Four Main principales of Refactoring :
+
+     • keep it small      :
+     • Business catalysts :
+     • Team cohesion      :
+     • Transparency       :
+
+
+
+
+
+
+
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ FOLDER 5 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+##                ____________________ FILE 1 ____________________ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
